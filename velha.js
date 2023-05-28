@@ -98,6 +98,9 @@ function checaVencedor() {
     mudarCorQuadrado(quadrado3, quadrado5, quadrado7);
     mudarVencedor(quadrado3);
   }
+  // else{
+  //   vencedorSelecionado.innerHTML = "Deu Velha!";
+  // }
 }
 
 /*TENTANDO ADD FUNCAO DE EMPATE!*/
