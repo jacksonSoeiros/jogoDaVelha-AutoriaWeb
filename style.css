@@ -1,0 +1,77 @@
+:root {
+  font-family: "Open Sans", sans-serif;
+
+  --background-fundo: #000000;
+  --background: #2ca4d3;
+  --background-blue:#6acff7;
+  --color-white: #ffffff;
+  --color-rer: #000000;
+  --color-red:#c91515;
+  --color-green:#22ac22;
+}
+
+body {
+  text-align: center;
+  background-image: linear-gradient(
+    90deg,
+    var(--background-fundo),
+    var(--background),
+    var(--color-rer)
+  );
+}
+
+h1 {
+  font-weight: bold;
+  margin-top: 60px;
+}
+
+.fundo {
+  margin-top: 50px;
+}
+
+.quadrado {
+  text-align: center;
+  border-radius: 15px;
+  font-weight: bold;
+  width: 50px;
+  background-color: var(--background-blue);
+  display: inline-block;
+  padding: 40px;
+  font-size: 60px;
+  margin: 5px;
+  cursor: pointer;
+  color:var(--background-blue);
+}
+
+.quadrado:hover {
+  border: 4px solid var(--background-fundo);
+  color: var(--background);
+  background-color: var(--background);
+  transition: 0.1s;
+}
+
+.jogador {
+  margin-top: 20px;
+}
+
+.jogador,
+.vencedor {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#jogador-selecionado, #vencedor-selecionado{
+    font-size: 3rem;
+    color: var(--color-red);
+}
+
+.button {
+  border-radius: 15px;
+  margin-top: 20px;
+  font-size: 20px;
+  width: 10%;
+  height: 30px;
+  background: var(--background-fundo);
+  color: var(--color-white);
+  cursor: pointer;
+}

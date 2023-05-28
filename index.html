@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>Jogo da Velha</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    
+  </head>
+
+  <body>
+    <h1>#Jogo_Da_Mais_Esperiente</h1>
+    <section class="fundo">
+      <div class="div-quad">
+        <div id="1" class="quadrado" onclick="escolherQuadrado(this.id)">-</div>
+        <div id="2" class="quadrado" onclick="escolherQuadrado(this.id)">-</div>
+        <div id="3" class="quadrado" onclick="escolherQuadrado(this.id)">-</div>
+      </div>
+
+      <div class="div-quad">
+        <div id="4" class="quadrado" onclick="escolherQuadrado(this.id)">-</div>
+        <div id="5" class="quadrado" onclick="escolherQuadrado(this.id)">-</div>
+        <div id="6" class="quadrado" onclick="escolherQuadrado(this.id)">-</div>
+      </div>
+
+      <div class="div-quad">
+        <div id="7" class="quadrado" onclick="escolherQuadrado(this.id)">-</div>
+        <div id="8" class="quadrado" onclick="escolherQuadrado(this.id)">-</div>
+        <div id="9" class="quadrado" onclick="escolherQuadrado(this.id)">-</div>
+      </div>
+      
+    </section>
+    <div class="jogador">
+      <label> Jogador: </label>
+      <label id="jogador-selecionado"> </label>
+    </div>
+
+    <div class="vencedor">
+      <label> Vencedor: </label>
+      <label id="vencedor-selecionado"> </label>
+    </div>
+
+    <div>
+      <button class="button" onclick="reiniciar()">Reiniciar</button>
+    </div>
+  </body>
+
+  <script src="velha.js"></script>
+</html>
