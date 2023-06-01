@@ -13,7 +13,7 @@
 body {
   text-align: center;
   background-image: linear-gradient(
-    90deg,
+45graus,
     var(--background-fundo),
     var(--background),
     var(--color-rer)
